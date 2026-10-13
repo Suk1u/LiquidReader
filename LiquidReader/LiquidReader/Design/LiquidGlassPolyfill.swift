@@ -72,9 +72,9 @@ public extension View {
         #endif
     }
     
-    /// 带指定 Shape 的玻璃修饰符
+    /// 带指定 InsettableShape 的玻璃修饰符
     @ViewBuilder
-    func glassEffect<S: Shape>(_ shape: S) -> some View {
+    func glassEffect<S: InsettableShape>(_ shape: S) -> some View {
         self.background {
             shape
                 .fill(.ultraThinMaterial)
