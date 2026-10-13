@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20000003EAAABBCCDD /* LiquidReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000003E9AABBCCDD /* LiquidReaderApp.swift */; };
+		20000003ECAABBCCDD /* LiquidGlassPolyfill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000003EBAABBCCDD /* LiquidGlassPolyfill.swift */; };
+		20000003EEAABBCCDD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000003EDAABBCCDD /* Theme.swift */; };
+		20000003F0AABBCCDD /* GlassModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000003EFAABBCCDD /* GlassModifiers.swift */; };
+		20000003F2AABBCCDD /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000003F1AABBCCDD /* Chapter.swift */; };
+		20000003F4AABBCCDD /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000003F3AABBCCDD /* Book.swift */; };
+		20000003F6AABBCCDD /* ReaderSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000003F5AABBCCDD /* ReaderSettings.swift */; };
+		20000003F8AABBCCDD /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000003F7AABBCCDD /* SampleData.swift */; };
+		20000003FAAABBCCDD /* ZipArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000003F9AABBCCDD /* ZipArchive.swift */; };
+		20000003FCAABBCCDD /* EPUBParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000003FBAABBCCDD /* EPUBParser.swift */; };
+		20000003FEAABBCCDD /* BookCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000003FDAABBCCDD /* BookCardView.swift */; };
+		2000000400AABBCCDD /* BookshelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000003FFAABBCCDD /* BookshelfView.swift */; };
+		2000000402AABBCCDD /* GlassToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1000000401AABBCCDD /* GlassToolbar.swift */; };
+		2000000404AABBCCDD /* ReaderContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1000000403AABBCCDD /* ReaderContentView.swift */; };
+		2000000406AABBCCDD /* ReaderSettingsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1000000405AABBCCDD /* ReaderSettingsSheetView.swift */; };
+		2000000408AABBCCDD /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1000000407AABBCCDD /* ReaderView.swift */; };
+		200000040AAABBCCDD /* TOCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1000000409AABBCCDD /* TOCView.swift */; };
+		200000040DAABBCCDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100000040CAABBCCDD /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06APPREF0000000000000006 /* LiquidReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10000003E9AABBCCDD /* LiquidReaderApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LiquidReaderApp.swift"; sourceTree = "<group>"; };
+		10000003EBAABBCCDD /* LiquidGlassPolyfill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LiquidGlassPolyfill.swift"; sourceTree = "<group>"; };
+		10000003EDAABBCCDD /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Theme.swift"; sourceTree = "<group>"; };
+		10000003EFAABBCCDD /* GlassModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GlassModifiers.swift"; sourceTree = "<group>"; };
+		10000003F1AABBCCDD /* Chapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Chapter.swift"; sourceTree = "<group>"; };
+		10000003F3AABBCCDD /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Book.swift"; sourceTree = "<group>"; };
+		10000003F5AABBCCDD /* ReaderSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReaderSettings.swift"; sourceTree = "<group>"; };
+		10000003F7AABBCCDD /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SampleData.swift"; sourceTree = "<group>"; };
+		10000003F9AABBCCDD /* ZipArchive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZipArchive.swift"; sourceTree = "<group>"; };
+		10000003FBAABBCCDD /* EPUBParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EPUBParser.swift"; sourceTree = "<group>"; };
+		10000003FDAABBCCDD /* BookCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BookCardView.swift"; sourceTree = "<group>"; };
+		10000003FFAABBCCDD /* BookshelfView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BookshelfView.swift"; sourceTree = "<group>"; };
+		1000000401AABBCCDD /* GlassToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GlassToolbar.swift"; sourceTree = "<group>"; };
+		1000000403AABBCCDD /* ReaderContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReaderContentView.swift"; sourceTree = "<group>"; };
+		1000000405AABBCCDD /* ReaderSettingsSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReaderSettingsSheetView.swift"; sourceTree = "<group>"; };
+		1000000407AABBCCDD /* ReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReaderView.swift"; sourceTree = "<group>"; };
+		1000000409AABBCCDD /* TOCView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TOCView.swift"; sourceTree = "<group>"; };
+		100000040BAABBCCDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+		100000040CAABBCCDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4000000415AABBCCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03MAINGROUP0000000000003 = {
+			isa = PBXGroup;
+			children = (
+				05SRCGROUP00000000000005 /* LiquidReader */,
+				04PRODUCTS00000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04PRODUCTS00000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06APPREF0000000000000006 /* LiquidReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05SRCGROUP00000000000005 /* LiquidReader */ = {
+			isa = PBXGroup;
+			children = (
+				300000040EAABBCCDD /* App */,
+				300000040FAABBCCDD /* Design */,
+				3000000410AABBCCDD /* Models */,
+				3000000411AABBCCDD /* Parser */,
+				3000000412AABBCCDD /* Views */,
+				3000000413AABBCCDD /* Resources */,
+			);
+			path = LiquidReader;
+			sourceTree = "<group>";
+		};
+		300000040EAABBCCDD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				10000003E9AABBCCDD /* LiquidReaderApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		300000040FAABBCCDD /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				10000003EBAABBCCDD /* LiquidGlassPolyfill.swift */,
+				10000003EDAABBCCDD /* Theme.swift */,
+				10000003EFAABBCCDD /* GlassModifiers.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		3000000410AABBCCDD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				10000003F1AABBCCDD /* Chapter.swift */,
+				10000003F3AABBCCDD /* Book.swift */,
+				10000003F5AABBCCDD /* ReaderSettings.swift */,
+				10000003F7AABBCCDD /* SampleData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3000000411AABBCCDD /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				10000003F9AABBCCDD /* ZipArchive.swift */,
+				10000003FBAABBCCDD /* EPUBParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		3000000412AABBCCDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				10000003FDAABBCCDD /* BookCardView.swift */,
+				10000003FFAABBCCDD /* BookshelfView.swift */,
+				1000000401AABBCCDD /* GlassToolbar.swift */,
+				1000000403AABBCCDD /* ReaderContentView.swift */,
+				1000000405AABBCCDD /* ReaderSettingsSheetView.swift */,
+				1000000407AABBCCDD /* ReaderView.swift */,
+				1000000409AABBCCDD /* TOCView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3000000413AABBCCDD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				100000040BAABBCCDD /* Info.plist */,
+				100000040CAABBCCDD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02TARGET0000000000000002 /* LiquidReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5000000419AABBCCDD /* Build configuration list for PBXNativeTarget "LiquidReader" */;
+			buildPhases = (
+				4000000414AABBCCDD /* Sources */,
+				4000000415AABBCCDD /* Frameworks */,
+				4000000416AABBCCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiquidReader;
+			productName = LiquidReader;
+			productReference = 06APPREF0000000000000006 /* LiquidReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01PROJECT0000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					02TARGET0000000000000002 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 600000041CAABBCCDD /* Build configuration list for PBXProject "LiquidReader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03MAINGROUP0000000000003;
+			productRefGroup = 04PRODUCTS00000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02TARGET0000000000000002 /* LiquidReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4000000416AABBCCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200000040DAABBCCDD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4000000414AABBCCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20000003EAAABBCCDD /* LiquidReaderApp.swift in Sources */,
+				20000003ECAABBCCDD /* LiquidGlassPolyfill.swift in Sources */,
+				20000003EEAABBCCDD /* Theme.swift in Sources */,
+				20000003F0AABBCCDD /* GlassModifiers.swift in Sources */,
+				20000003F2AABBCCDD /* Chapter.swift in Sources */,
+				20000003F4AABBCCDD /* Book.swift in Sources */,
+				20000003F6AABBCCDD /* ReaderSettings.swift in Sources */,
+				20000003F8AABBCCDD /* SampleData.swift in Sources */,
+				20000003FAAABBCCDD /* ZipArchive.swift in Sources */,
+				20000003FCAABBCCDD /* EPUBParser.swift in Sources */,
+				20000003FEAABBCCDD /* BookCardView.swift in Sources */,
+				2000000400AABBCCDD /* BookshelfView.swift in Sources */,
+				2000000402AABBCCDD /* GlassToolbar.swift in Sources */,
+				2000000404AABBCCDD /* ReaderContentView.swift in Sources */,
+				2000000406AABBCCDD /* ReaderSettingsSheetView.swift in Sources */,
+				2000000408AABBCCDD /* ReaderView.swift in Sources */,
+				200000040AAABBCCDD /* TOCView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		600000041AAABBCCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		600000041BAABBCCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5000000417AABBCCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LiquidReader/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antigravity.liquidreader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5000000418AABBCCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LiquidReader/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antigravity.liquidreader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		600000041CAABBCCDD /* Build configuration list for PBXProject "LiquidReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600000041AAABBCCDD /* Debug */,
+				600000041BAABBCCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5000000419AABBCCDD /* Build configuration list for PBXNativeTarget "LiquidReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5000000417AABBCCDD /* Debug */,
+				5000000418AABBCCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 01PROJECT0000000000000001 /* Project object */;
+}
